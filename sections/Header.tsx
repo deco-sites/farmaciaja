@@ -31,7 +31,7 @@ export default function Header({
   const device = useDevice();
   return (
     <nav
-      class="drawer"
+      class="drawer text-[#000A36]"
       style={{
         boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.10);",
       }}

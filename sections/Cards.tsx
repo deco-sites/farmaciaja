@@ -52,10 +52,10 @@ export default function Cards({ cards }: Props) {
           `,
         }}
       />
-      <div class="pt-16 lg:pt-24">
+      <div class="py-16 lg:py-24 text-[#000A36]">
         <div className={`container mx-auto slider-${id}`}>
           <div
-            className={`swiper-container relative overflow-hidden pb-10`}
+            className={`swiper-container relative overflow-hidden`}
             id={id}
           >
             <div class="swiper-wrapper">
@@ -75,7 +75,12 @@ export default function Cards({ cards }: Props) {
                       <p class="text-base">{card.description}</p>
                       <button
                         className="text-base underline"
-                        onclick={`${card.title.split(" ")[0]}.showModal()`}
+                        data-dialog={card.title.split(" ")[0]}
+                        onClick={() =>
+                          (document.getElementById(
+                            card.title.split(" ")[0],
+                          ) as HTMLDialogElement)
+                            .showModal()}
                       >
                         Saiba mais
                       </button>
@@ -125,6 +130,19 @@ export default function Cards({ cards }: Props) {
         }}
       >
       </script>
+      <script
+        type="module"
+        dangerouslySetInnerHTML={{
+          __html: `
+      document.querySelectorAll("[data-dialog]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const id = btn.getAttribute("data-dialog");
+          document.getElementById(id)?.showModal();
+        });
+      });
+    `,
+        }}
+      />
     </>
   );
 }

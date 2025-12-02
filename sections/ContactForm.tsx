@@ -10,13 +10,13 @@ export default function ContactForm(
   { email, phone, address, whatsappLink }: Props,
 ) {
   return (
-    <div class="py-16 lg:py-24">
+    <div class="py-16 lg:py-24 text-[#000A36]">
       <div className="container mx-auto flex gap-[53px] lg:gap-[163px] flex-col lg:flex-row">
         <div class="w-full lg:max-w-[400px]">
           <h1 class="text-[32px] lg:text-4xl font-bold">
             Entre em contato
           </h1>
-          <p class="lg:text-2xl mt-[10px] text-accent-content">
+          <p class="lg:text-xl mt-[10px] text-accent-content">
             Preencha o formulário e receba o contato de um de nossos
             especialistas.
           </p>
@@ -99,7 +99,7 @@ export default function ContactForm(
             </svg>
           </a>
         </div>
-        <form className="shadow-lg p-10 rounded-xl flex-1">
+        <form className="shadow-lg p-5 lg:p-10 rounded-xl flex-1">
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <label htmlFor="nome">Nome</label>

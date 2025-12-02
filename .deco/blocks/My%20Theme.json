@@ -20,5 +20,14 @@
     "base-100": "#fff",
     "secondary": "#001B99",
     "tertiary": "#F0F0F8"
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [],
+        "family": "Poppins"
+      }
+    ]
   }
 }

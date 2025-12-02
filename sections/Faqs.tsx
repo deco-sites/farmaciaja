@@ -9,10 +9,10 @@ interface Props {
 }
 export default function FAQs({ title, faqs }: Props) {
   return (
-    <div class="bg-accent w-full mt-16 lg:mt-24 py-16 lg:py-[182px]">
+    <div class="bg-accent w-full mt-16 lg:mt-24 py-16 lg:py-[182px] text-[#000A36]">
       <div className="container mx-auto">
-        <h2 class="text-xl lg:text-[32px] text-center uppercase text-[#000A36]">{title}</h2>
-        <div class="space-y-5 lg:space-y-9 mt-5">
+        <h2 class="text-xl font-bold lg:text-[32px] text-center text-[#000A36]">{title}</h2>
+        <div class="space-y-5 lg:space-y-9 mt-5 lg:mt-10">
           {faqs.map((faq, index) => (
             <details key={index} class="group">
               <summary class="flex justify-between items-center cursor-pointer lg:text-xl font-medium list-none bg-[#fff] text-[#000A36] p-5 lg:px-[50px] lg:py-9 rounded-[20px]">
