@@ -20,25 +20,28 @@ export default function About() {
         />
         <div className="lg:max-w-[600px] lg:ml-auto block">
           <h1 class="text-[#000A36] text-5xl font-semibold">
-            Sobre a farmácia já
+            Sobre a Farmácia Já
           </h1>
+
           <p class="mt-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            A Farmácia Já, do grupo Farmácias Neco Ltda (CNPJ
+            53.737.006/0001-02), nasceu com o propósito de oferecer saúde,
+            bem-estar e cuidado em cada atendimento. Trabalhamos com
+            medicamentos, vitaminas, suplementos, perfumaria, higiene,
+            cosméticos e produtos infantis, sempre seguindo as normas da ANVISA.
+            Estamos localizados na Av. Comendador Dante Carraro, 512,
+            Carapicuíba–SP, com responsabilidade técnica de Rones de Lima Santos
+            (CRF 123580). Nosso compromisso é entregar praticidade, confiança e
+            preços justos, garantindo uma experiência simples e segura desde o
+            site até a entrega.
           </p>
+
           <p class="mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Nosso objetivo é estar presentes no dia a dia dos clientes,
+            oferecendo um atendimento atencioso, produtos de qualidade e um
+            processo de compra fácil e transparente. Trabalhamos continuamente
+            para manter um ambiente seguro, prático e alinhado com as
+            necessidades de cada pessoa que confia em nossos serviços.
           </p>
         </div>
       </div>

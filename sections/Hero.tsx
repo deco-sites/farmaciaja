@@ -47,6 +47,9 @@ export default function MainHero(
               </p>
             </div>
             <a
+              href="https://api.whatsapp.com/send?phone=5511917801009"
+              target="_blank"
+              rel="noopener noreferrer"
               class={`btn-primary btn btn-lg text-xl font-semibold rounded-full text-white`}
             >
               Preço baixo é aqui!

@@ -15,13 +15,13 @@
           },
           {
             "label": "Contato",
-            "url": "/"
+            "url": "#contact-form"
           }
         ],
         "buttons": [
           {
             "id": "Whatsapp",
-            "href": "/",
+            "href": "https://api.whatsapp.com/send?phone=5511917801009",
             "text": "Whatsapp"
           }
         ]
@@ -36,19 +36,19 @@
       "__resolveType": "site/sections/Cards.tsx",
       "cards": [
         {
-          "title": "Lorem ipsums",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "modalDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Saúde completa em um só lugar",
+          "description": "Trabalhamos com uma linha completa de medicamentos, vitaminas, suplementos e itens de saúde aprovados pelas normas da ANVISA, garantindo segurança e confiança em cada compra.",
+          "modalDescription": "Trabalhamos com uma linha completa de medicamentos, vitaminas, suplementos e itens de saúde aprovados pelas normas da ANVISA, garantindo segurança e confiança em cada compra."
         },
         {
-          "title": "Lorem ipsuma",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "modalDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Beleza e cuidados pessoais",
+          "description": "Cosméticos, perfumaria e produtos de higiene selecionados para tornar sua rotina mais prática. Qualidade, preços justos e entrega rápida para o seu dia a dia.",
+          "modalDescription": "Cosméticos, perfumaria e produtos de higiene selecionados para tornar sua rotina mais prática. Qualidade, preços justos e entrega rápida para o seu dia a dia."
         },
         {
-          "title": "Lorem ipsumv",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "modalDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "title": "Cuidado para toda a família",
+          "description": "Produtos infantis, bem-estar, aparelhos e acessórios que facilitam o cotidiano. Opções pensadas para acompanhar cada fase da vida com atenção e carinho.",
+          "modalDescription": "Produtos infantis, bem-estar, aparelhos e acessórios que facilitam o cotidiano. Opções pensadas para acompanhar cada fase da vida com atenção e carinho."
         }
       ]
     },
@@ -60,27 +60,31 @@
       "email": "atendimento@gmail.com.br",
       "phone": "+55 (00) 9999-9999",
       "address": "Rua fictícia, 20 | 9 andar | CEP  4040-4040 São Paulo - SP",
-      "whatsappLink": "/"
+      "whatsappLink": "https://api.whatsapp.com/send?phone=5511917801009"
     },
     {
       "__resolveType": "site/sections/Faqs.tsx",
       "title": "Perguntas frequentes",
       "faqs": [
         {
-          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          "title": "Como funciona a compra pelo site?",
+          "content": "A compra é feita diretamente pelo site, com preços e condições exclusivos para a internet. Basta escolher os produtos, adicionar ao carrinho e finalizar o pedido."
         },
         {
-          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          "title": "A Farmácia Já segue as normas da ANVISA?",
+          "content": "Sim. Todos os produtos e operações seguem as normas da ANVISA, com responsável técnico registrado e AFE vigente."
         },
         {
-          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          "title": "Os preços do site são os mesmos da loja física?",
+          "content": "Não. Os valores e disponibilidade exibidos no site são exclusivos do ambiente online e podem mudar sem aviso."
         },
         {
-          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?"
+          "title": "Onde a farmácia está localizada?",
+          "content": "Av. Comendador Dante Carraro, 512, Carapicuíba–SP."
+        },
+        {
+          "title": "A farmácia realiza entrega?",
+          "content": "Sim. Enviamos para toda a região atendida pela plataforma e transportadoras integradas."
         }
       ]
     },
