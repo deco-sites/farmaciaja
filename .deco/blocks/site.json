@@ -3,12 +3,12 @@
     "type": "website",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | deco.cx",
-    "title": "Start",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/40cc7da0-93d3-4215-9c2a-04b2f86b0a47",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/22c99167-0018-484f-8b0d-4295a7d771f2"
+    "description": "Farmácia Já: medicamentos, vitaminas, suplementos, perfumaria, higiene e produtos infantis. Qualidade, confiança, ANVISA e entrega rápida em Carapicuíba–SP.",
+    "titleTemplate": "%s | Farmácia Já",
+    "descriptionTemplate": "%s | Farmácia Já",
+    "title": "Farmácia Já | Saúde, Bem-estar e Cuidados para Toda a Família",
+    "favicon": "https://assets.decocache.com/farmaciaja/dfa4e1d9-d247-45bb-9ea1-303e5421389d/logo.png",
+    "image": "https://assets.decocache.com/farmaciaja/dfa4e1d9-d247-45bb-9ea1-303e5421389d/logo.png"
   },
   "global": [
     {
